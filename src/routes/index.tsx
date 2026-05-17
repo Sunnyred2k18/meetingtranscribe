@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Mic, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { InstallPrompt } from "@/components/InstallPrompt";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -22,6 +23,8 @@ function Index() {
             Live transcription you can share. Speak on one device, read on another.
           </p>
         </header>
+
+        <InstallPrompt />
 
         <div className="grid gap-5 sm:grid-cols-2">
           <Link
