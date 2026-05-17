@@ -17,7 +17,7 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <div className="mx-auto max-w-3xl px-6 py-16 sm:py-24">
         <header className="mb-14 text-center">
-          <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">Scribe</h1>
+          <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">Meeting Scribe</h1>
           <p className="mt-4 text-muted-foreground">
             Live transcription you can share. Speak on one device, read on another.
           </p>
