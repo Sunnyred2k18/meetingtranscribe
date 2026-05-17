@@ -24,6 +24,8 @@ function Index() {
           </p>
         </header>
 
+        <InstallPrompt />
+
         <div className="grid gap-5 sm:grid-cols-2">
           <Link
             to="/record"
