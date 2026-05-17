@@ -12,7 +12,7 @@ export const Route = createFileRoute("/view/$code")({
   component: ViewPage,
   head: ({ params }) => ({
     meta: [
-      { title: `Live transcript ${params.code} — Scribe` },
+      { title: `Live transcript ${params.code} — Meeting Scribe` },
       { name: "description", content: "Follow a live meeting transcript in real time." },
       { name: "robots", content: "noindex" },
     ],
