@@ -19,7 +19,7 @@ export const Route = createFileRoute("/record")({
   component: RecordPage,
   head: () => ({
     meta: [
-      { title: "Record — Scribe" },
+      { title: "Record — Meeting Scribe" },
       { name: "description", content: "Record a meeting and share a live transcript link with others." },
     ],
   }),
