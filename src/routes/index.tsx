@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Mic, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { InstallPrompt } from "@/components/InstallPrompt";
 
 export const Route = createFileRoute("/")({
   component: Index,
